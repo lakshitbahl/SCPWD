@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SCPWD</string>
+    <string name="bt_prev_txt" translatable="false">&lt;&lt;</string>
+    <string name="bt_next_txt" translatable="false">&gt;&gt;</string>
+    <string name="bt_status_txt">Status</string>
+    <string name="tv_result_txt_ex">EXPORTING</string>
+    <string name="tv_result_txt_im">IMPORTING</string>
+    <string name="tv_light_txt">Light:</string>
+    <string name="tv_light_value_txt" translatable="false">000000lux</string>
+    <string name="tv_sens1_curr_txt">SOLAR PV</string>
+    <string name="tv_sens_value_txt" translatable="false">0000W</string>
+    <string name="tv_sens2_curr_txt">POWER NOW</string>
+    <string name="err_no_device">spMonitor device not found. Make sure it is switched on and is connected to the same WiFi network.</string>
+    <string name="err_arduino">Communication with spMonitor (Arduino) failed. Make sure it is switched on and is connected to the same WiFi network.</string>
+    <string name="found_device">spMonitor device found on IP: %1$s. \nNow syncing data with the device!</string>
+    <string name="manual_ip">spMonitor IP set to : %1$s</string>
+    <string name="search_device">Searching for spMonitor device. This can take up to 5 Minutes.</string>
+    <string name="no_device_ip">no IP saved</string>
+    <string name="no_wifi">No Wifi connection. spMonitor needs a WiFi connection to communicate with the spMonitor device!</string>
+    <string name="bt_man_id_txt">Enter IP address</string>
+    <string name="tv_ip_header_txt">Enter IP address</string>
+    <string name="et_ip1_txt" translatable="false">192</string>
+    <string name="et_ip2_txt" translatable="false">168</string>
+    <string name="et_ip3_txt" translatable="false">0</string>
+    <string name="et_ip4_txt" translatable="false">140</string>
+    <string name="tv_col_txt">:</string>
+    <string name="tv_man_ip_hdr_txt">Or enter IP address manually.</string>
+    <string name="bt_stop_txt">Close</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="cb_solar_txt">Solar</string>
+    <string name="cb_cons_txt">Cons.</string>
+    <string name="cb_light_txt">Light</string>
+    <string name="bt_sync_txt">Refresh</string>
+    <string name="tv_result">Info</string>
+    <string name="filesSynced">Sync successful</string>
+    <string name="filesSyncFail">Sync failed - JSON error</string>
+    <string name="filesSyncFail1">Sync failed - DB locked</string>
+    <string name="filesSyncFinished">DB refresh finished</string>
+    <string name="tv_widget_conf_txt">Select widget size</string>
+    <string name="rb_large_txt">Large text</string>
+    <string name="rb_small_txt">Small text</string>
+    <string name="bt_place_txt">Add</string>
+    <string name="bt_backup_remote_txt">Backup database</string>
+    <string name="bt_daydream">DayDream now</string>
+    <string name="notif_export">Exporting %1$sW at %2$s</string>
+    <string name="noExtStorage">No external storage</string>
+    <string name="backupSaved">Backup file saved</string>
+    <string name="bt_switch_WAN_txt">Switch to mobile</string>
+    <string name="bt_switch_LAN_txt">Switch to WiFi</string>
+    <string name="on_WAN">WAN, no database sync available</string>
+    <string name="tv_alarm_txt">Set alarm</string>
+    <string name="no_alarm_sel">No alarm</string>
+    <string name="dev_alarm_sel">Submarine</string>
+    <string name="alarm_diag_title">Select alarm</string>
+    <string name="bt_simple_UI">Show simple UI</string>
+    <string name="bt_graph_UI">Show graph UI</string>
+    <string name="bt_enable_notif_txt">Show notifications</string>
+    <string name="bt_disable_notif_txt">Hide notifications</string>
+</resources>

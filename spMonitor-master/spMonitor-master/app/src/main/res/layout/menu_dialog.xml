@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@android:color/darker_gray"
+              tools:ignore="Overdraw">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_backup_remote_txt"
+        android:id="@+id/bt_backup"
+        style="@android:style/Widget.DeviceDefault.Button"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_daydream"
+        android:id="@+id/bt_dream"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_toRightOf="@+id/bt_backup"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_sw_ui"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:text="@string/bt_simple_UI"
+        android:layout_below="@+id/bt_backup"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_switch_net"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:text="@string/bt_switch_WAN_txt"
+        android:layout_alignRight="@+id/bt_dream"
+        android:layout_below="@+id/bt_backup"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_enable_notif"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:text="@string/bt_enable_notif_txt"
+        android:layout_below="@+id/bt_sw_ui"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_set_alarm"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:text="@string/alarm_diag_title"
+        android:layout_below="@+id/bt_sw_ui"
+        android:layout_alignRight="@+id/bt_dream"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"
+        android:id="@+id/bt_menu_cancel"
+        android:layout_gravity="center_horizontal"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_below="@+id/bt_enable_notif"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
